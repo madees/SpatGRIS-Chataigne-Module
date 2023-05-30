@@ -1,0 +1,202 @@
+{
+	"name": "SpatGRIS-OSC",
+	"type": "OSC",
+	"path": "Immersive solution",
+	
+	"version": "1.0",
+	"description": "Create a basic client/server that implement communication with SpatGRIS, a software designed for multichannel spatialization in 2D and 3D.\n\n
+    This module is collecting values from ControlGRIS by OSC, and/or sending objects positions to SpatGRIS software renderer.
+    To know more about SpatGRIS immersive renderer, please consult http://gris.musique.umontreal.ca/ 
+    Chataigne Module specific documentation can be found in the README on GitHub:",
+	"url": "https://github.com/madees/SpatGRIS-OSC-Module",
+	"downloadURL": "https://github.com/madees/SpatGRIS-OSC-Module/archive/master.zip",
+	
+	"hasInput": true,
+	"hasOutput": true, 
+	"hideDefaultCommands": false,
+	"hideDefaultParameters": [
+		"colorSendMode",
+		"autoRange",
+		"autoFeedback",
+		"pass_through",
+		"input",
+		"outputs",
+		"useHierarchy",
+		"colorSendMode",
+		"booleanSendMode"
+	],
+	
+	"defaults": {
+		"autoAdd": false,
+		"oscInput": {
+			"localPort": 18032
+		},
+		"OSC Outputs": {
+			"OSC Output": {
+				"local": true,
+				"remoteHost": "192.168.1.1",
+				"remotePort": 18032
+			}
+		}
+	},
+	
+	"parameters": {
+		"Number of objects": {
+			"description":"Number of objects to collect.\n",
+			"type": "Integer",
+			"default": 64,
+			"min":1,
+			"max":128
+		},
+	},
+	
+	"scripts": [
+		"SpatGRIS-OSC.js"
+	],
+	
+	"values": {
+  },
+	
+  "commands": 
+	{
+		"pol":
+		{
+			"menu":"",
+			"callback":"pol",
+			"parameters":
+			{
+				"Source index":
+				{
+					"type":"Integer",
+					"min":1,
+					"max":128
+				},
+				"Azimuth angle":
+				{
+					"type":"Float"
+				},
+        "Elevation angle":
+				{
+					"type":"Float"
+				},
+				"Horizontal span":
+				{
+					"type":"Float",
+					"min":0,
+					"max":1
+				},
+        "Vertical Span":
+				{
+					"type":"Float",
+					"min":0,
+					"max":1
+				}
+			}
+		},
+    "deg":
+		{
+			"menu":"",
+			"callback":"deg",
+			"parameters":
+			{
+				"Source index":
+				{
+					"type":"Integer",
+					"min":1,
+					"max":128
+				},
+				"Azimuth angle":
+				{
+					"type":"Float"
+				},
+        "Elevation angle":
+				{
+					"type":"Float"
+				},
+				"Horizontal span":
+				{
+					"type":"Float",
+					"min":0,
+					"max":1
+				},
+        "Vertical Span":
+				{
+					"type":"Float",
+					"min":0,
+					"max":1
+				}
+			}
+		},
+    "car":
+		{
+			"menu":"",
+			"callback":"car",
+			"parameters":
+			{
+				"Source index":
+				{
+					"type":"Integer",
+					"min":1,
+					"max":128
+				},
+				"x (left/right)":
+				{
+					"type":"Float"
+				},
+        "y (back/front)":
+				{
+					"type":"Float"
+				},
+        "z (down/up)":
+				{
+					"type":"Float"
+				},
+				"Horizontal span":
+				{
+					"type":"Float",
+					"min":0,
+					"max":1
+				},
+        "Vertical Span":
+				{
+					"type":"Float",
+					"min":0,
+					"max":1
+				}
+			}
+		},
+    "clr":
+		{
+			"menu":"",
+			"callback":"clr",
+			"parameters":
+			{
+				"Source index":
+				{
+					"type":"Integer",
+					"min":1,
+					"max":128
+				}
+			}
+		},
+    "alg":
+		{
+			"menu":"",
+			"callback":"alg",
+			"parameters":
+			{
+				"Source index":
+				{
+					"type":"Integer",
+					"min":1,
+					"max":128
+				},
+				"Algorithm":
+				{
+					"type":"String"
+				}
+			}
+		}
+
+  }
+}
