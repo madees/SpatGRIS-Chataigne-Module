@@ -3,14 +3,17 @@ Chataigne module to retreive parameters or control SpatGRIS object based audio (
 
 To know more about the free and open source SpatGRIS immersive solution, please consult the user manual and website :
 http://gris.musique.umontreal.ca/
+
 You can download software and manual here :
 https://sourceforge.net/projects/spatgris3/
+
 And sources :
 https://github.com/GRIS-UdeM/SpatGRIS
 
 
 For global support on how to use Chataigne and its modules, please visit the forum : 
 http://benjamin.kuperberg.fr/chataigne/forum 
+
 or join us on Discord : 
 https://discord.com/invite/ngnJ5z my contact there is also "madees".
 
