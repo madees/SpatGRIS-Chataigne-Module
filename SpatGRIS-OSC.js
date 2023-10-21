@@ -1,4 +1,4 @@
-/* Chataigne Module for SpatGRIS v1.0 (c) Mathieu Delquignies, 5/2023
+/* Chataigne Module for SpatGRIS v1.1 (c) Mathieu Delquignies, 5/2023
 ===============================================================================
 This file is a Chataigne Custom Module to test and map objects metadatas from ControllerGRIS, or send objects metadatas to SpatGRIS.
 Tested with v1.4.1 ControllerGRIS plugin, and SpatGRIS 3.2.9.
@@ -249,7 +249,7 @@ function deg(sourceIndex, azimuthAngle, elevationAngle, radius, hSpan, vSpan)
  */
 function car(sourceIndex, x, y, z, hSpan, vSpan) 
 {
-	local.send("/spat/serv", "pol", sourceIndex, x, y, z, hSpan, vSpan );
+	local.send("/spat/serv", "car", sourceIndex, x, y, z, hSpan, vSpan );
 }
 
 /**

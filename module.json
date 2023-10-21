@@ -3,11 +3,8 @@
 	"type": "OSC",
 	"path": "Immersive solution",
 	
-	"version": "1.0",
-	"description": "Create a basic client/server that implement communication with SpatGRIS, a software designed for multichannel spatialization in 2D and 3D.\n\n
-    This module is collecting values from ControlGRIS by OSC, and/or sending objects positions to SpatGRIS software renderer.
-    To know more about SpatGRIS immersive renderer, please consult http://gris.musique.umontreal.ca/ 
-    Chataigne Module specific documentation can be found in the README on GitHub:",
+	"version": "1.1",
+	"description": "Create a basic client/server that implement communication with SpatGRIS, a software designed for multichannel spatialization in 2D and 3D.\n\n This module is collecting values from ControlGRIS by OSC, and/or sending objects positions to SpatGRIS software renderer. To know more about SpatGRIS immersive renderer, please consult http://gris.musique.umontreal.ca/ Chataigne Module specific documentation can be found in the README on GitHub:",
 	"url": "https://github.com/madees/SpatGRIS-OSC-Module",
 	"downloadURL": "https://github.com/madees/SpatGRIS-OSC-Module/archive/master.zip",
 	
@@ -47,7 +44,7 @@
 			"default": 64,
 			"min":1,
 			"max":128
-		},
+		}
 	},
 	
 	"scripts": [
