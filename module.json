@@ -71,9 +71,15 @@
 				{
 					"type":"Float"
 				},
-        "Elevation angle":
+        		"Elevation angle":
 				{
 					"type":"Float"
+				},
+				"Radius":
+				{
+					"type":"Float",
+					"min":-3,
+					"max":3
 				},
 				"Horizontal span":
 				{
@@ -81,7 +87,7 @@
 					"min":0,
 					"max":1
 				},
-        "Vertical Span":
+        		"Vertical Span":
 				{
 					"type":"Float",
 					"min":0,
@@ -105,9 +111,15 @@
 				{
 					"type":"Float"
 				},
-        "Elevation angle":
+        		"Elevation angle":
 				{
 					"type":"Float"
+				},
+				"Radius":
+				{
+					"type":"Float",
+					"min":-3,
+					"max":3
 				},
 				"Horizontal span":
 				{
@@ -115,7 +127,7 @@
 					"min":0,
 					"max":1
 				},
-        "Vertical Span":
+        		"Vertical Span":
 				{
 					"type":"Float",
 					"min":0,
@@ -137,15 +149,21 @@
 				},
 				"x (left/right)":
 				{
-					"type":"Float"
+					"type":"Float",
+					"min":-1.66,
+					"max":1.66
 				},
-        "y (back/front)":
+        		"y (back/front)":
 				{
-					"type":"Float"
+					"type":"Float",
+					"min":-1.66,
+					"max":1.66
 				},
-        "z (down/up)":
+        		"z (down/up)":
 				{
-					"type":"Float"
+					"type":"Float",
+					"min":-1.66,
+					"max":1.66
 				},
 				"Horizontal span":
 				{
@@ -153,7 +171,7 @@
 					"min":0,
 					"max":1
 				},
-        "Vertical Span":
+        		"Vertical Span":
 				{
 					"type":"Float",
 					"min":0,
