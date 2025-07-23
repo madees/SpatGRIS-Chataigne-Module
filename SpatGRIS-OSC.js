@@ -61,7 +61,7 @@ function moduleParameterChanged(param)
 {
 	if(param.isParameter())
 	{
-		// the only parameter is Number of ojects, when it changes, update Objects container with the right amount of values
+		// the only parameter is Number of objects, when it changes, update Objects container with the right amount of values
 		createObjectsContainer();
 	}
 }
@@ -191,7 +191,7 @@ function createObjectsContainer()
 /**
  * Callback functions for module commands
  * 
- * As described in "SpatGRIS 3.2.9 Manual.pdf"
+ * As described in "SpatGRIS 3.3.7 Manual.pdf"
  * http://gris.musique.umontreal.ca/
  */
 
