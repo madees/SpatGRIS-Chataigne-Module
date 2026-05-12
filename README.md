@@ -29,5 +29,5 @@ Select the number of objects to store in values containers with /modules/SpatGRI
 They are organised to ease multiplex mappings : you can automatically build list with "Fill... from Container".
 
 This may be used to replace SpatGRIS renderer with another OBA renderer, multiplex mappings should be the easy way.
-If you want to render at the same time with SpatGRIS, the module "pass-through" to itself will do with ease.
-You may also use the Module Commands in mappings to send parameters directly to SpatGRIS renderer, if objects editor used for production is different from ControlGRIS, or you want to add some other objects controls from thirds.
+If you want to render at the same time with SpatGRIS, the module "pass-through" feature will do it with ease.
+You may also use the Module Commands in mappings to send parameters to SpatGRIS renderer, if objects editor used for production is different from ControlGRIS, or you want to control some from third party object animators etc.
