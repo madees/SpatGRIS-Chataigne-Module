@@ -10,10 +10,10 @@ https://sourceforge.net/projects/spatgris3/
 And sources :
 https://github.com/GRIS-UdeM/SpatGRIS
 
-! NOTE : This is a personal initiative, not officially suported by GRIS.
+! NOTE : This is a personal initiative, not officially suported by GRIS. Tested with 3.3.7.
 
-For global support on how to use Chataigne and its modules, please visit the forum : 
-http://benjamin.kuperberg.fr/chataigne/forum 
+For global support on how to use Chataigne and its modules, please visit : 
+https://benjamin.kuperberg.fr/chataigne 
 
 or join us on Discord : 
 https://discord.com/invite/ngnJ5z my contact there is also "madees".
